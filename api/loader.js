@@ -3,10 +3,7 @@ export default function handler(req, res) {
 local script_key = "test123" -- Замени на свой ключ
 
 local HttpService = game:GetService("HttpService")
-local url = "https://ВАШ-САЙТ.vercel.app/get"
-
-local function request_func(data)
-    if syn and syn.request then
+local url = "https://vss-jet.vercel.app/get"local url = "https://.vercel.app/get"local uyn and syn.request then
         return syn.request(data)
     elseif request then
         return request(data)
